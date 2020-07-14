@@ -2,43 +2,35 @@
 #include"Menu.h"
 #include<fstream>
 using namespace std;
-int NhapMa(char *x, int n_max);
-int NhapChuoi(char *x, int n_max);
-int NhapPass( char *x, int n_max);
-int DangNhap(dsLop DSlop, PTRSV &sv);
 
-void LoadDsLop_them(dsLop &ds, char *filename)
-{
-	ifstream file;
-	int i;
-	file.open(filename, ios_base::in);
-	if(file.fail() == true)
-		cout << "Ten file chua dung" << endl;
-	file >> ds.n;
-	for(i = 0; i < ds.n; ++i)
-		file >> ds.lop[i]->MaLop >> ds.lop[i]->TenLop;
-	file.close();
-}
 void LoadDsLop(dsLop &ds)
 {
+	int x;
 	ifstream filein;
-	filein.open("DanhSachLop.txt",ios_base::in);
-	filein >> ds.n;
-	for(int i=0;i<ds.n;i++)
+	filein.open("LopTemp.txt",ios_base::in);
+	filein >> x;
+	if(filein.fail() == true)
 	{
-		/*filein>>ds.lop[i]->MaLop ;
-		filein>>ds.lop[i]->TenLop;
-		filein>>ds.lop[i]->NienKhoa;*/
-		filein.getline(ds.lop[i]->MaLop,100);
-		filein.getline(ds.lop[i]->TenLop,100);
-		filein.getline(ds.lop[i]->NienKhoa,100);
+		cout << "Khong doc duoc file!!" << endl;
+		
+	}
+	ds.n=0;
+	for(int i=0;i<x;i++)
+	{
+		ds.nodelop[i]=new Lop;
+		getline(filein,ds.nodelop[i]->MaLop,',');
+		getline(filein,ds.nodelop[i]->TenLop,',');
+		getline(filein,ds.nodelop[i]->NienKhoa);
 	}
 	filein.close();
 }
 
 void XuatDsLop(dsLop ds)
 {
-	
+	int x;
+	ifstream filein;
+	filein.open("LopTemp.txt",ios_base::in);
+	filein >> x;
 	int i;
 	int y=wherey();
 	gotoxy(5, y);
@@ -49,19 +41,19 @@ void XuatDsLop(dsLop ds)
 	cout << "Ma lop";// << endl;
 	gotoxy(60,y);
 	cout<<"Nien Khoa"<<"\n";
-	for (i = 0; i < ds.n; ++i)
+	for (i = 0; i < x; ++i)
 	{
 		if(i < 10)
 			gotoxy(6, wherey());
 		else
 			gotoxy(5, wherey());
 		cout << i + 1;
-		gotoxy(13, wherey());
-		cout << ds.lop[i]->TenLop;
-		gotoxy(43, wherey());
-		cout << ds.lop[i]->MaLop<<endl;
-		gotoxy(50, wherey());
-		cout << ds.lop[i]->NienKhoa<<endl;
+		gotoxy(20, wherey());
+		cout << ds.nodelop[i]->TenLop;
+		gotoxy(45, wherey());
+		cout << ds.nodelop[i]->MaLop<<endl;
+		gotoxy(60, wherey()-1);
+		cout << ds.nodelop[i]->NienKhoa<<endl;
 	}
 }
 int NhapMa(char *x, int n_max)
@@ -293,21 +285,10 @@ PTRSV searchStudent(PTRSV First, char *masv)
 		if(stricmp(p->data.MaSV, masv) == 0)	return p;
 	return NULL;
 }
-void XoaDong(int y, int x)
+int DangNhap()
 {
-	gotoxy(1, y);
-	for (int j = 1; j <= x; ++j)
-	{
-		for (int i = 1; i <= 100; ++i)
-		{
-			cout << " ";
-		}
-		gotoxy(1, y + j);
-	}
-	gotoxy(1, y);
-}
-int DangNhap(dsLop DSlop, PTRSV &sv)
-{
+	//dsLop DSlop, PTRSV &sv
+	dsLop DSlop; PTRSV sv;
 	char *user = new char [10];
 	char *pass = new char [8];
 	int i = 0;
@@ -371,7 +352,7 @@ int DangNhap(dsLop DSlop, PTRSV &sv)
 		{
 			for(i = 0; i < DSlop.n; i++)
 			{
-				p = searchStudent(DSlop.lop[i]->DSSV, user);
+				p = searchStudent(DSlop.nodelop[i]->DSSV, user);
 				if(p != NULL)	break;
 			}
 			if(p == NULL)
