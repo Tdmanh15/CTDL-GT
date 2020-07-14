@@ -1,0 +1,161 @@
+
+1
+ANH4
+DOG là con gì?
+A. Con Cho
+B. Con Meo
+C. Con Khi
+D. Khong co dap an dung.
+A
+2
+ANH4
+Monkey là con gì?
+A. Con Cho
+B. Con Meo
+C. Con Khi
+D. Khong co dap an dung.
+C
+3
+ANH5
+Elephent là con gì?
+A. Con Cho
+B. Con Meo
+C. Con Khi
+D. Khong co dap an dung.
+D
+4
+ANH5
+Cat là con gì?
+A. Con Cho
+B. Con Meo
+C. Con Khi
+D. Khong co dap an dung.
+B
+5
+DIA4
+Viet Nam co bao nhieu dan toc?
+A. 51
+B. 52
+C. 53
+D. 54
+D
+6
+DIA4
+Viet Nam co bao nhieu tinh?
+A. 63
+B. 64
+C. 65
+D. 66
+A
+7
+DIA5
+Viet Nam thuoc chau luc nao?
+A. Chau A
+B. Chau Au
+C. Chau My
+D. Chau Dai Duong
+A
+8
+DIA5
+TP Ho Chi Minh thuoc mien nao?
+A. Mien Trung
+B. Mien Tay
+C. Mien Nam
+D. Mien Bac
+C
+9
+SU4
+Ngay Bac Ho doc ban tuyen ngon doc lap?
+A. 2-9-1945
+B. 30-4-1945
+C. 1-5-1945
+D. 22-12-1945
+A
+10
+SU4
+Ngay thanh lap quan doi nhan dan Viet Nam?
+A. 2-9-1945
+B. 30-4-1944
+C. 1-5-1945
+D. 22-12-1944
+D
+11
+SU5
+Ngay giai phong hoan toan mien nam?
+A. 2-9-1975
+B. 30-4-1975
+C. 3-2-1975
+D. 27-7-1975
+B
+12
+SU5
+Chien dich Dien Bien Phu dien ra nam nao?
+A. 1945
+B. 1954
+C. 1963
+D. 1964
+B
+13
+TOAN4
+Hinh vuong co may canh?
+A. 2
+B. 3
+C. 4
+D. 5
+C
+14
+TOAN4
+x + 15 = 20. Tim x= ?
+A. 2
+B. 3
+C. 4
+D. 5
+D
+15
+TOAN5
+Cong thuc tinh dien tich hinh vuong?
+A. Canh x4
+B. Canh x2
+C. Canh /2
+D. Khong co dap an dung
+D
+16
+TOAN5
+Cong thuc tinh dien tich hinh chu nhat?
+A. Dai x rong
+B. Dai + rong
+C. (Dai + rong)x2
+D. Khong co dap an dung
+A
+17
+VAN4
+Cho cac tu sau, tu nao la tu lay?
+A. Xanh xanh
+B. Cay coi
+C. Cay bang
+D. Khong co dap an dung
+A
+18
+Van4
+"Nha cua" la tu gi?
+A. Tu lay
+B. Tu don
+C. Tu phuc
+D. Khong co dap an dung
+C
+19
+VAN5
+Trong "Truyen ke ve Ly Tu Trong", Ly Tu Trong que o dau?
+A. Ninh Thuan
+B. Nghe An
+C. Ha Tinh
+D. Hue
+C
+20
+VAN5
+Trong bai "Nhung con seu bang giay",xa-da-co bi nhiem phong xa nguyen tu khi nao?
+A. Chien tranh the gioi thu I
+B. Chien tranh the gioi thu II
+C. My nem 2 qua bom nguyen tu xuong Nhat Ban
+D. Khong co dap an dung
+C

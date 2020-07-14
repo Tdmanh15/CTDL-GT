@@ -1,0 +1,36 @@
+5
+L4A
+5
+L4A1,Tran Thi My,Ngoc,Nu,L4A1
+L4A2,Ta Duc,Manh,Nam,L4A2
+L4A3,Dinh Thi,Ngoc,Nu,L4A3
+L4A4,Nguyen,Nhat,Nam,L4A4
+L4A5,Bui Nhat,Minh,Nam,L4A5
+L4B
+5
+L4B1,Vo Thi Thanh,Phuong,Nu,L4B1
+L4B2,Dang Hoang,Vi,Nu,L4B2
+L4B3,Vo Hoang,Duy,Nam,L4B3
+L4B4,Tran Van,Long,Nam,L4B4
+L4B5,Nguyen Thi,Lan,Nu,L4B5
+L4C
+5
+L4C1,Pham Thanh,Thao,Nu,L4C1
+L4C2,Duong Tan,Phat,Nam,L4C2
+L4C3,Nguyen Thai,Bao,Nam,L4C3
+L4C4,Duong Khanh,Thu,Nu,L4C4
+L4C5,Dang Tan,Luc,Nam,L4C5
+L5A
+5
+L5A1,Nguyen Thi Diem,Thuy,Nu,L5A1
+L5A2,Nguyen Thanh,Dat,Nam,L5A2
+L5A3,Lam Van,Tuan,Nam,L5A3
+L5A4,Nguyen Thi Kim,Sa,Nu,L5A4
+L5A5,Tran Nguyen Uyen,Phuong,Nu,L5A5
+L5B
+5
+L5B1,Nguyen Phuong,Nam,Nam,L5B1
+L5B2,Ha Thi,Hoan,Nu,L5B2
+L5B3,Vo Thi Thu,Hien,Nu,L5B3
+L5B4,Nguyen Pham Nhat,Minh,Nam,L5B4
+L5B5,Le Duy,Khang,Nam,L5B5
